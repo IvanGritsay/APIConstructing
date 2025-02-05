@@ -18,39 +18,29 @@ class TestController extends AbstractController
     public const USERS_DATA = [
         [
             'id'    => '1',
-            'email' => 'test1@gmail.com',
-            'name'  => 'John1'
+            'email' => 'ipz235_giv@student.ztu.edu.ua',
+            'name'  => 'Ivan1'
         ],
         [
             'id'    => '2',
-            'email' => 'test2@gmail.com',
-            'name'  => 'John2'
+            'email' => 'ipz235_giv@student.ztu.edu.ua',
+            'name'  => 'Ivan2'
         ],
         [
             'id'    => '3',
-            'email' => 'test3@gmail.com',
-            'name'  => 'John3'
+            'email' => 'ipz235_giv@student.ztu.edu.ua',
+            'name'  => 'Ivan3'
         ],
         [
             'id'    => '4',
-            'email' => 'test4@gmail.com',
-            'name'  => 'John4'
+            'email' => 'ipz235_giv@student.ztu.edu.ua',
+            'name'  => 'Ivan4'
         ],
         [
             'id'    => '5',
-            'email' => 'test5@gmail.com',
-            'name'  => 'John5'
-        ],
-        [
-            'id'    => '6',
-            'email' => 'test6@gmail.com',
-            'name'  => 'John6'
-        ],
-        [
-            'id'    => '7',
-            'email' => 'test7@gmail.com',
-            'name'  => 'John7'
-        ],
+            'email' => 'ipz235_giv@student.ztu.edu.ua',
+            'name'  => 'Ivan5'
+        ]
     ];
 
     #[Route('/users', name: 'app_collection_users', methods: ['GET'])]
